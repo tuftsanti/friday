@@ -220,11 +220,11 @@ const initialize = () => {
         $('#smokey-hitpoints').text(smokey.hitpoints)
         $('#smokey-koolaids').text(smokey.koolaids)
         $('#smokey-specials').text(smokey.specials)
-    ezal = new Boss ('Ezal', 20, 0, 0, 5, 0.65, 'hustles', 'LEVEL 1', flavorText[0],`images/ezal.png`)
-    mrparker = new Boss ('Mr Parker', 25, 0, 0, 7, 0.75, 'throws a brick at', 'LEVEL 2', flavorText[1], `images/mrparker.png`)
-    hector = new Boss ('Hector', 30, 0, 0, 10, 0.8, 'mocks', 'LEVEL 3', flavorText[2], `images/hector.jpg`)
-    bigworm = new Boss ('Big Worm', 40, 0, 0, 12, 0.85, 'primps', 'LEVEL 4', flavorText[3], `images/bigworm.png`)
-    deebo = new Boss ('Deebo', 50, 0, 0, 15, 0.9, 'pounds', 'FINAL BOSS', flavorText[4], `images/deebo.jpg`)
+    ezal = new Boss ('Ezal', 20, 0, 0, 7, 0.65, 'hustles', 'LEVEL 1', flavorText[0],`images/ezal.png`)
+    mrparker = new Boss ('Mr Parker', 25, 0, 0, 10, 0.75, 'throws a brick at', 'LEVEL 2', flavorText[1], `images/mrparker.png`)
+    hector = new Boss ('Hector', 30, 0, 0, 12, 0.8, 'mocks', 'LEVEL 3', flavorText[2], `images/hector.jpg`)
+    bigworm = new Boss ('Big Worm', 40, 0, 0, 15, 0.85, 'primps', 'LEVEL 4', flavorText[3], `images/bigworm.png`)
+    deebo = new Boss ('Deebo', 50, 0, 0, 17, 0.9, 'pounds', 'FINAL BOSS', flavorText[4], `images/deebo.jpg`)
 
     enemyList = [ezal, mrparker, hector, bigworm, deebo];
     currentEnemy = enemyList[0];
