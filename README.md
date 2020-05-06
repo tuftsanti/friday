@@ -1,4 +1,4 @@
-##### Friday: The Thrilling Adventures of Craig and Smokey
+# Friday: The Thrilling Adventures of Craig and Smokey
 
 ### Technologies Used
 1. A Javascript 'classes' creation system for players and enemies similar to Object and Orcs<br>
@@ -18,3 +18,5 @@ While I was able to make a fun game (I even found the correct title font from th
 3. The difficulty level is fairly straight forward and could benefit from customization. The player likely doesn't want to repeat play multiple times without a skill level increase. That could be introduced with stat changes, additional bosses, sub-enemies, etc.<br><br>
 
 Ultimately, I hope my love of this film shows through the gaudy background color as nothing but a tribute to a mighty fine movie!
+
+*** All images and likenesses are not my own, but from the film Friday by New Line Cinema *** 
