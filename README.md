@@ -1,3 +1,5 @@
+##### Friday: The Thrilling Adventures of Craig and Smokey
+
 ### Technologies Used
 1. A Javascript 'classes' creation system for players and enemies similar to Object and Orcs<br>
 2. A series of real-time JQuery manipulations to update player stats.<br>
