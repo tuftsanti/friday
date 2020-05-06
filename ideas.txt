@@ -1,0 +1,25 @@
+Enemies:
+	Ezal - trying to steal money
+	Stanley - got off my lawn
+	Pastor Clever - bricks from Mr Parker
+	Felicia - borrow VCR
+	Dana - tries to smother Craig
+	Hector
+	Big Worm - sends goons and uses "Big Perm"
+	Deebo
+	
+Friends:
+	Debbie - Kiss powerup to fight Deebo
+	Red - during Deebo battle
+
+Items:
+	Kool-Aid - Heal
+	
+	Pistol - weapon
+	
+	Weights - level up
+
+TODO================================================
+
+
+	

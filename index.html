@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friday</title>
+    <link rel="shortcut icon" href="friday.jpg" type="image/jpg">
+    <link rel="stylesheet" href="styles.css">
+    <script
+        src="https://code.jquery.com/jquery-3.5.0.js"
+        integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc="
+        crossorigin="anonymous"
+        defer
+    ></script>
+    <script src="app.js" defer></script>
+</head>
+<body>
+        
+    <div id="how-to-play">How to Play !!</div>
+    <div id="instructions">
+        <div class="modal-text">
+            <h1>How to get through Friday</h1>
+
+            <p>The object of the game is to save the neighborhood from the clutches of the nefarious Deebo and his crew. You will battle through 4 bosses of increasing power and difficulty before Deebo appears!<br><br>The cycle of attack begins with Craig, then progresses to Smokey, and finally the boss lets loose, with the active player in red.<br><br>--- The standard Attack With Fists will do 5 damage, can miss, but is limitless ---<br>--- Special attacks do 15 damage, never miss, but are limited to 2 per player. Use them wisely ---<br>--- Having a Drink of Kool-Aid heals the player for 10HP but are limited to 3 per game ---<br><br>Can you survive all 5 rounds to protect the Neighborhood?</p>
+
+            <div class="modal-bottom">
+                <a class="modal-close" href="#">Back to the Game</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="youwin">
+        <div class="modal-text">
+            <h2>YOU WIN !</h2>
+
+            <p>Craig and Smokey saved the neighborhood from the evil clutches of Deebo. It's a good thing Friday only comes once a week...<br><br>Would you like to play again?</p>
+
+            <div class="modal-bottom">
+                <a class="play-again-no" href="#">NO</a>
+                <a class="play-again-yes" href="#">YES</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="youlose">
+        <div class="modal-text">
+            <h2>YOU LOSE !</h2>
+
+            <p id="loser-text"></p>
+
+            <div class="modal-bottom">
+                <a class="play-again-no" href="#">NO</a>
+                <a class="play-again-yes" href="#">YES</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="title">
+        <h1>Friday : The Thrilling Adventures of Craig and Smokey</h1>
+    </div>
+
+    <div class="player" id="boss-info">
+        <h2></h2>
+        <p></p>           
+    </div>
+    <img alt="Boss" id="boss-image" src="">
+    <div id="bottom-bar">
+        <div class="player" id="craig">
+            <img src="images/craig.jpg" alt="Craig" id="craig-image">
+            <h2>Craig</h2>
+            <div class="player-container">
+                <ul class="stat-names">
+                    <li class="hitpoints">Hitpoints: </li>
+                    <li class="koolaids">Kool-Aids: </li>
+                    <li class="Specials">Special Attacks: </li>
+                </ul>
+                <ul class="stats">
+                    <li class="hitpoints" id="craig-hitpoints"></li>
+                    <li class="koolaids" id="craig-koolaids"></li>
+                    <li class='specials' id="craig-specials"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="player" id="craig-actions">
+            <h2>Actions</h2>
+            <div class="player-container">
+                <ul class="stat-names">
+                    <li id="craig-attack-1">Attack With Fists</li>
+                    <li id="craig-attack-2">Clown With Gun</li>
+                    <li id="craig-heal">Drink Kool-Aid</li>
+                </ul>
+            </div>
+        </div>
+        <div id="status-window">
+            <h3>STATUS</h3>
+            <ul class="digital-output">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="player" id="smokey-actions">
+            <h2>Actions</h2>
+            <div class="player-container">
+                <ul class="stat-names">
+                    <li id="smokey-attack-1">Attack With Fists</li>
+                    <li id="smokey-attack-2">High Pitch Scream</li>
+                    <li id="smokey-heal">Drink Kool-Aid</li>
+                </ul>
+            </div>
+        </div>
+        <div class="player" id="smokey">
+            <img src="images/smokey.jpg" alt="Smokey" id="smokey-image">
+            <h2>Smokey</h2>
+            <div class="player-container">
+                <ul class="stat-names">
+                    <li class="hitpoints">Hitpoints: </li>
+                    <li class="koolaids">Kool-Aids: </li>
+                    <li class="specials">Special Attacks: </li>
+                </ul>
+                <ul class="stats">
+                    <li class="hitpoints" id="smokey-hitpoints"></li>
+                    <li class="koolaids" id="smokey-koolaids"></li>
+                    <li class='specials' id="smokey-specials"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
