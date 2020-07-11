@@ -1,4 +1,6 @@
 # Friday: The Thrilling Adventures of Craig and Smokey
+Check out the game here:
+https://tuftsanti.github.io/friday/
 
 ### Technologies Used
 1. A Javascript 'classes' creation system for players and enemies similar to Object and Orcs<br>
