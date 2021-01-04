@@ -1,5 +1,5 @@
 # Friday: The Thrilling Adventures of Craig and Smokey
-Check out the game here:
+Play the game here:
 https://tuftsanti.github.io/friday/
 
 ### Technologies Used
